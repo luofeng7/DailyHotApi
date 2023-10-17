@@ -1,7 +1,5 @@
 FROM alpine
 
-ENV ALLOWED_DOMAIN *
-
 WORKDIR /app
 
 COPY . .
